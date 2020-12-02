@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  main:
+    build: .
+    volumes:
+      # Mount everything for now,
+      # update it in order to mount only `bat` folder
+      - "${PWD}:/usr/src/app"
+    stdin_open: true
+    tty: true 
