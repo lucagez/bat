@@ -1,3 +1,3 @@
 # Bat 🦇
 
-> It let's you see
+It let's you see
